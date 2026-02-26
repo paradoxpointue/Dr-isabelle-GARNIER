@@ -36,8 +36,8 @@
   <header class="sticky top-0 z-50 w-full bg-surface-light/90 backdrop-blur-md border-b border-primary/10">
     <div class="max-w-[1200px] mx-auto px-6 h-20 flex items-center justify-between">
       <div class="flex items-center gap-3">
-        <div class="bg-primary/10 p-2 rounded-lg text-primary">
-          <span class="material-symbols-outlined text-2xl">health_and_safety</span>
+        <div class="p-0.5">
+          <img src="/images/logo.png" alt="Logo Santé Fonctionnelle" class="h-9 w-9 object-contain rounded-full"/>
         </div>
         <a href="index.html" class="text-xl font-bold tracking-tight text-text-main">Dr. Isabelle Garnier</a>
       </div>
@@ -83,7 +83,7 @@
         <div class="bg-surface-light rounded-2xl overflow-hidden shadow-sm border border-primary/10">
           <div class="w-full h-[400px] bg-slate-200 relative group cursor-pointer" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDu9HNa6fJCs5BDnzB4KcMVfXn2pUDvsuoM5Z6nNlxx1EcVMYBq1hohJATy75JLbOEfIgzuE02BZFDGnPy8J2pbQ7BE6l7GJQfPWoiUUCQ82PvdybRgyFdvcONoHZXhN0ZSS3BrOvf0Bo16yEGZw3w2GcF660Glv8_rT37Au4hBdWJrm84tZL6WTeVuTNJ7HBb_c1p2b4YXca6penmzkdV7ZjdLcjy_4EAOA8mY28EF_G2APxpV9KG0zLrc_kB9tPg0XBSAGmWVoiQP'); background-size: cover; background-position: center;">
             <div class="absolute inset-0 bg-black/5 group-hover:bg-black/10 transition-colors flex items-center justify-center">
-              <a href="https://maps.google.com/?q=123+Rue+de+Rivoli+Paris" target="_blank" class="bg-surface-light px-4 py-2 rounded-full shadow-lg font-medium text-sm flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-2 group-hover:translate-y-0">
+              <a href="https://maps.google.com/?q=15+rue+M%C3%A9chain+75014+Paris" target="_blank" class="bg-surface-light px-4 py-2 rounded-full shadow-lg font-medium text-sm flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-2 group-hover:translate-y-0">
                 <span class="material-symbols-outlined text-primary">map</span>
                 Voir sur Google Maps
               </a>
@@ -99,7 +99,7 @@
             </div>
             <div>
               <h3 class="font-bold text-lg mb-1 text-text-main">Cabinet</h3>
-              <p class="text-slate-600 text-sm leading-relaxed">123 Rue de Rivoli<br/>75001 Paris, France</p>
+              <p class="text-slate-600 text-sm leading-relaxed">15 rue Méchain<br/>75014 Paris</p>
             </div>
           </div>
           <div class="bg-surface-light p-6 rounded-xl border border-primary/10 flex flex-col gap-3">
@@ -108,7 +108,7 @@
             </div>
             <div>
               <h3 class="font-bold text-lg mb-1 text-text-main">Horaires</h3>
-              <p class="text-slate-600 text-sm leading-relaxed">Lundi - Vendredi : 09h00 - 19h00<br/>Samedi : Sur rendez-vous</p>
+              <p class="text-slate-600 text-sm leading-relaxed">Lundi - Vendredi : 8h00 - 19h00<br/>Samedi : 8h00 - 12h00</p>
             </div>
           </div>
           <div class="bg-surface-light p-6 rounded-xl border border-primary/10 flex flex-col gap-3">
@@ -118,7 +118,7 @@
             <div>
               <h3 class="font-bold text-lg mb-1 text-text-main">Téléphone</h3>
               <p class="text-slate-600 text-sm mb-2">Pour les urgences et RDV</p>
-              <a class="text-primary-dark font-bold hover:underline" href="tel:+33123456789">+33 1 23 45 67 89</a>
+              <a class="text-primary-dark font-bold hover:underline" href="tel:+33188404900">01.88.40.49.00</a>
             </div>
           </div>
           <div class="bg-surface-light p-6 rounded-xl border border-primary/10 flex flex-col gap-3">
@@ -128,7 +128,7 @@
             <div>
               <h3 class="font-bold text-lg mb-1 text-text-main">Email</h3>
               <p class="text-slate-600 text-sm mb-2">Réponse sous 24h</p>
-              <a class="text-primary-dark font-bold hover:underline" href="mailto:contact@drgarnier.fr">contact@drgarnier.fr</a>
+              <a class="text-primary-dark font-bold hover:underline" href="mailto:sec.drgarnier@gmail.com">sec.drgarnier@gmail.com</a>
             </div>
           </div>
         </div>
@@ -194,12 +194,17 @@
               <span class="bg-primary text-slate-900 p-2 rounded-lg material-symbols-outlined">videocam</span>
               <h3 class="text-xl font-bold text-text-main">Consultation en ligne</h3>
             </div>
-            <p class="text-slate-700 text-sm mb-6 leading-relaxed">Vous ne pouvez pas vous déplacer ? Profitez d'un suivi personnalisé via notre portail sécurisé de téléconsultation.</p>
+            <p class="text-slate-700 text-sm mb-6 leading-relaxed">Vous recevez par mail un lien de connexion 48h avant votre consultation.</p>
             <button class="w-full bg-white text-text-main border border-transparent hover:border-primary-dark hover:text-primary-dark font-bold py-3 px-4 rounded-lg flex items-center justify-center gap-2 transition-all shadow-sm">
               Accéder au portail
               <span class="material-symbols-outlined text-sm">arrow_forward</span>
             </button>
           </div>
+        </div>
+
+        <!-- Carte de visite -->
+        <div class="rounded-2xl overflow-hidden shadow-md border border-primary/10 bg-white">
+          <img src="/images/carte-contact.png" alt="Carte de visite Dr Isabelle Garnier" class="w-full h-auto object-contain"/>
         </div>
 
       </div>
